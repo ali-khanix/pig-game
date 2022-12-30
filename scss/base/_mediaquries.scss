@@ -1,0 +1,34 @@
+@media screen and (max-width: 415px) {
+  main {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .player {
+    padding: 10rem;
+  }
+
+  .btn {
+    font-size: 2.2rem;
+  }
+  .btn--new {
+    top: 3rem;
+  }
+
+  .dice {
+    left: 10%;
+    top: 45%;
+    transform: none;
+    height: 10rem;
+  }
+  .btn--roll {
+    top: 44%;
+    left: 70%;
+  }
+
+  .btn--hold {
+    top: 51%;
+    transform: translateX(-22%);
+    padding: 1rem 2rem;
+  }
+}
