@@ -214,7 +214,7 @@ main {
 @media screen and (max-width: 415px) {
   main {
     flex-direction: column;
-    height: auto;
+    height: 85vh;
   }
   .player {
     padding: 10rem;
@@ -227,9 +227,9 @@ main {
   }
   .dice {
     left: 10%;
-    top: 45%;
+    top: 46%;
     transform: none;
-    height: 10rem;
+    height: 8rem;
   }
   .btn--roll {
     top: 44%;
@@ -237,8 +237,42 @@ main {
   }
   .btn--hold {
     top: 51%;
-    transform: translateX(-22%);
+    transform: translateX(-28%);
     padding: 1rem 2rem;
+  }
+  .current {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    transform: translateY(30px);
+  }
+  .player h2 {
+    font-size: 3rem;
+  }
+  .player .score {
+    font-size: 5rem;
+    margin-bottom: 0;
+  }
+  .current-label {
+    font-size: 3rem;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 376px) {
+  .current-label {
+    font-size: 2rem;
+  }
+  .curren-score {
+    font-size: 2.5rem;
+  }
+  .btn {
+    font-size: 1.6rem;
+  }
+  .btn--hold {
+    transform: translateX(-20%);
   }
 }
 
