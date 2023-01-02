@@ -262,6 +262,9 @@ main {
   }
 }
 @media screen and (max-width: 376px) {
+  main {
+    height: 100vh;
+  }
   .current-label {
     font-size: 2rem;
   }
@@ -271,8 +274,18 @@ main {
   .btn {
     font-size: 1.6rem;
   }
+  .btn--new {
+    top: 3rem;
+  }
+  .btn--roll {
+    top: 46%;
+  }
   .btn--hold {
     transform: translateX(-20%);
+    top: 56%;
+  }
+  .dice {
+    top: 48%;
   }
 }
 
