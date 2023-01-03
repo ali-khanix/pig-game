@@ -292,7 +292,7 @@ main {
     top: 48%;
   }
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
   main {
     height: 80rem;
   }
