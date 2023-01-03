@@ -91,3 +91,22 @@
     top: 48%;
   }
 }
+
+@media screen and (max-width: 380px) {
+  main {
+    height: 80rem;
+  }
+  .current {
+    width: 20rem;
+  }
+
+  .btn--roll {
+    top: 42%;
+
+    padding: 1rem 1rem;
+  }
+
+  .btn--hold {
+    padding: 1rem 1rem;
+  }
+}
